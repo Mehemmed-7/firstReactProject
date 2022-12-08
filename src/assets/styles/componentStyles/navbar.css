@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Manrope;
+    src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Merriweather&family=Poppins:ital,wght@0,100;1,100&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    width: 100% ;
+    height: 42px;
+    margin-top: 56px;
+}
+.nav-link
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.navbar-brand span
+{
+    font-size: 43.25px;
+}
+.login_button
+{
+    width: 128px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 26px;
+    border: 2px solid black;
+}
+.logo
+{
+    width: 25.91px;
+    height: 33.16px;
+}
+
+.logo .logo_top
+{
+    width: 18px;
+    height: 13px;
+    border-radius:0 12px 12px 0;
+    background-color: #0A2640;
+}
+.logo .logo_bottom
+{
+    width: 25.91px;
+    height: 17.68px;
+    border-radius:0 12px 12px 0;
+    background-color: #0A2640;
+}

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.slider {
+  width: 100%;
+  height: 48.83px;
+}
+.canyon {
+  width: 100%;
+  height: 650px;
+  margin-top: 40px;
+}
+.our_services {
+  background-color: #0a2640;
+  height: 926px;
+  padding: 50px 0 0 0;
+}
+.our_services h6 {
+  font-size: 20px;
+  color: white;
+}
+.our_services h2 {
+  width: 842px;
+  font-size: 48px;
+  color: white;
+}
+.connect {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+  margin-bottom: 80px;
+}
+.connect .img_box {
+  width: 494px;
+  height: 610px;
+  /* overflow: hidden; */
+  position: relative;
+}
+.connect .img_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content_box button {
+  width: 210px;
+  height: 60px;
+  background-color: #0a2640;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 56px;
+  transition: 0.4s;
+}
+.content_box button:hover {
+  background-color: white;
+  color: #0a2640;
+  font-weight: bold;
+}
+.chart {
+  width: 400px;
+  height: 388px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: -100px;
+  right: 30px;
+  z-index: 1;
+  padding: 20px;
+  border-radius: 20px;
+}
+.content_box ul li
+{
+    transition: .3s;
+    cursor: pointer;
+}
+.content_box ul li:hover
+{
+    background-color: #0a2640;
+    color: white;
+}
+.percent p::before
+{
+  content: "•";
+  color: #0DBBFC;
+  margin-right: 5px
+}

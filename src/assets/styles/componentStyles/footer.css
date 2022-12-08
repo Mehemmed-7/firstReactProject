@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footerTop
+{
+    width: 100%;
+    height: 391px;
+    background-color: #0A2640;
+}
+.footerTop h3
+{
+    font-family: tahoma;
+    font-size: 48px;
+    width: 716px;
+    color: white;
+}
+.footerTop form
+{
+    width: 60%;
+}
+.footerTop input
+{
+    width: 370px;
+    height: 56px;
+    border-radius: 240px;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+.footerTop input::placeholder
+{
+    font-weight: 500;
+}
+.footerTop button
+{
+    width: 210px;
+    height: 60px;
+    border-radius: 56px;
+    background-color: #65E4A3;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0A2640;
+}
+.footerBottom .col-md-3 p , .footerBottom .col-md-3 span
+{
+    font-size: 15px;
+    color: #777777;
+}
+.nav-link .badge
+{
+    color: #0A2640 !important;
+    background-color: #65E4A3;
+    font-size: 13px !important;
+}
