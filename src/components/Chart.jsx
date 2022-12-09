@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import {
   BarChart,
   Bar,
-  Cell,
+  // Cell,
   XAxis,
   YAxis,
   CartesianGrid,
